@@ -1,0 +1,14 @@
+[2026-03-17 00:25:09] [REGISTER] [Pratik Kumar] User registered
+[2026-03-17 00:25:36] [FAIL] [Pratik kumar] Login — user not found
+[2026-03-17 00:26:03] [LOGIN] [Pratik Kumar] Successful login
+[2026-03-17 00:26:58] [RESET] [Pratik Kumar] Password reset successful
+[2026-03-17 00:27:45] [RESET] [Pratik Kumar] Password reset successful
+[2026-03-17 00:28:29] [FAIL] [Pratik Kumar] Failed reset — wrong answer
+[2026-03-17 10:10:12] [REGISTER] [Nitesh Kumar] User registered
+[2026-03-17 10:10:30] [LOGIN] [Nitesh Kumar] Successful login
+[2026-03-17 10:18:06] [REGISTER] [nitesh kumar] User registered
+[2026-03-17 10:18:24] [LOGIN] [nitesh kumar] Successful login
+[2026-03-20 08:59:45] [REGISTER] [ravi] User registered
+[2026-03-20 09:00:01] [LOGIN] [ravi] Successful login
+[2026-03-20 09:01:21] [REGISTER] [r] User registered
+[2026-03-20 09:01:30] [LOGIN] [r] Successful login
