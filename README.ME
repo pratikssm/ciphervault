@@ -1,0 +1,82 @@
+# 🔐 CipherVault — Secure Login System
+
+A modern, desktop-based authentication system built with Python and Tkinter. Features a cyberpunk-themed UI with full login, registration, and password reset functionality — backed by a local SQLite database.
+
+---
+
+## ✨ Features
+
+- **User Registration** — with email, security question & bcrypt-hashed password
+- **Secure Login** — with account lockout after 3 failed attempts (60s cooldown)
+- **Password Reset** — via security question/answer verification
+- **Password Strength Meter** — real-time strength indicator (Weak → Strong)
+- **Password Generator** — one-click strong password generation
+- **Show/Hide Password** — eye toggle on all password fields
+- **User Dashboard** — shows last login, total logins, member since, and account status
+- **Activity Logging** — logs all events to `activity_log.txt` and SQLite DB
+- **Auto-Migration** — safely updates existing DB schema without data loss
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Language | Python 3.x |
+| GUI | Tkinter + ttk |
+| Database | SQLite3 |
+| Password Hashing | bcrypt |
+
+---
+
+## 📦 Installation
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/pratikssm/ciphervault.git
+cd ciphervault
+```
+**2. Install dependencies**
+```bash
+pip install bcrypt
+```
+
+**3. Run the app**
+```bash
+python main.py
+```
+
+> No additional setup needed — the SQLite database (`users.db`) is auto-created on first run.
+
+---
+
+## 📁 Project Structure
+
+```
+ciphervault/
+├── main.py            # Main application file
+├── users.db           # Auto-generated SQLite database
+├── activity_log.txt   # Auto-generated activity log
+└── README.md
+```
+
+---
+
+## 🔒 Security Highlights
+
+- Passwords hashed using **bcrypt** with salt
+- **Brute-force protection** — lockout after 3 failed attempts
+- Security answers stored in **lowercase** for consistent comparison
+- No plain-text passwords stored anywhere
+
+---
+
+## 📸 Preview
+
+> Cyberpunk dark theme with cyan/purple accent colors, animated header, and tabbed navigation (Login / Register / Reset).
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
